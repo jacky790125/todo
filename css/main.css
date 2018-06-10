@@ -1,0 +1,45 @@
+html {
+    background-color: #E1E1E1;
+    font-family: 'Roboto'; 
+}
+
+#header{
+    height: 76px;
+    background-color: #4A90E2;
+    font-size: 24px;
+}
+
+#header a {
+    text-align: center;
+    width:220px;
+    color: #00408B;
+    padding: 23px 0px 25px 0px;
+    line-height: 28px;
+}
+
+#header .active{
+    color: #ffffff;
+}
+
+.todo{
+    height: 76px;
+    background: #F2F2F2;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 4px 4px 0 #C8C8C8;
+}
+
+.todo .title{
+    font-size: 24px;
+}
+
+#addContent{
+    margin: 0 auto;
+    width: 620px;
+    border-radius: 5px;
+}
+
+#addForm{
+    height: 443px;
+    background: #F2F2F2;
+    box-shadow: 0 4px 4px 0 #C8C8C8;
+}
