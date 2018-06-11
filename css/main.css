@@ -30,7 +30,26 @@ html {
 
 .todo .title{
     font-size: 24px;
+    padding: 24px 76px;
+    line-height: 28px;
 }
+
+/* checkbox */
+.custom-control-label::before {
+    top: 28px;
+    left: 34px;
+    width:24px;
+    height: 24px;
+    background: white;
+}
+
+.custom-control-label::after {
+    top: 28px;
+    left: 34px;
+    width:24px;
+    height: 24px;
+} 
+
 
 #addContent{
     margin: 0 auto;
